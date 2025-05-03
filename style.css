@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(45deg, #bf00ff,#9500ff, #004cf1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+span {
+    color: yellow;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+textarea {
+    margin-top: 40px;
+    width: 450px;
+    height: 250px;
+    color: #fff;
+    font-size: 1rem;
+    font-family:monospace;
+    border: none;
+    border-radius: 5px;
+    background: #00000062;
+    outline: none;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+textarea::placeholder {
+    font-size: 1rem;
+    color: #d9d8d8;
+}
+div {
+    margin-top: 40px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+
+align-items: center;}
+select {
+    flex: 1;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding-left: 4px;
+    color: #fff;
+    background: #9500ff;
+    cursor: pointer;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color: yellow;
+    color: #9500ff;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
+}
+button:hover {
+    background-color: rgb(231, 231, 0);
+}
